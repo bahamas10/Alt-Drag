@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55B0FB6C1974F37500E43FE5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B0FB6B1974F37500E43FE5 /* Cocoa.framework */; };
+		55B0FB761974F37500E43FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55B0FB741974F37500E43FE5 /* InfoPlist.strings */; };
+		55B0FB781974F37500E43FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0FB771974F37500E43FE5 /* main.m */; };
+		55B0FB7C1974F37500E43FE5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55B0FB7A1974F37500E43FE5 /* Credits.rtf */; };
+		55B0FB7F1974F37500E43FE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0FB7E1974F37500E43FE5 /* AppDelegate.m */; };
+		55B0FB821974F37500E43FE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55B0FB801974F37500E43FE5 /* MainMenu.xib */; };
+		55B0FB841974F37500E43FE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B0FB831974F37500E43FE5 /* Images.xcassets */; };
+		55B0FB8B1974F37500E43FE5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B0FB8A1974F37500E43FE5 /* XCTest.framework */; };
+		55B0FB8C1974F37500E43FE5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B0FB6B1974F37500E43FE5 /* Cocoa.framework */; };
+		55B0FB941974F37500E43FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55B0FB921974F37500E43FE5 /* InfoPlist.strings */; };
+		55B0FB961974F37500E43FE5 /* Alt_DragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0FB951974F37500E43FE5 /* Alt_DragTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55B0FB8D1974F37500E43FE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55B0FB601974F37500E43FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B0FB671974F37500E43FE5;
+			remoteInfo = "Alt Drag";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55B0FB681974F37500E43FE5 /* Alt Drag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alt Drag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B0FB6B1974F37500E43FE5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		55B0FB6E1974F37500E43FE5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		55B0FB6F1974F37500E43FE5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55B0FB701974F37500E43FE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55B0FB731974F37500E43FE5 /* Alt Drag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alt Drag-Info.plist"; sourceTree = "<group>"; };
+		55B0FB751974F37500E43FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55B0FB771974F37500E43FE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55B0FB791974F37500E43FE5 /* Alt Drag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alt Drag-Prefix.pch"; sourceTree = "<group>"; };
+		55B0FB7B1974F37500E43FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		55B0FB7D1974F37500E43FE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55B0FB7E1974F37500E43FE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55B0FB811974F37500E43FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		55B0FB831974F37500E43FE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55B0FB891974F37500E43FE5 /* Alt DragTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alt DragTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B0FB8A1974F37500E43FE5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		55B0FB911974F37500E43FE5 /* Alt DragTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alt DragTests-Info.plist"; sourceTree = "<group>"; };
+		55B0FB931974F37500E43FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55B0FB951974F37500E43FE5 /* Alt_DragTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alt_DragTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B0FB651974F37500E43FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B0FB6C1974F37500E43FE5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B0FB861974F37500E43FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B0FB8C1974F37500E43FE5 /* Cocoa.framework in Frameworks */,
+				55B0FB8B1974F37500E43FE5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55B0FB5F1974F37500E43FE5 = {
+			isa = PBXGroup;
+			children = (
+				55B0FB711974F37500E43FE5 /* Alt Drag */,
+				55B0FB8F1974F37500E43FE5 /* Alt DragTests */,
+				55B0FB6A1974F37500E43FE5 /* Frameworks */,
+				55B0FB691974F37500E43FE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55B0FB691974F37500E43FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55B0FB681974F37500E43FE5 /* Alt Drag.app */,
+				55B0FB891974F37500E43FE5 /* Alt DragTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B0FB6A1974F37500E43FE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55B0FB6B1974F37500E43FE5 /* Cocoa.framework */,
+				55B0FB8A1974F37500E43FE5 /* XCTest.framework */,
+				55B0FB6D1974F37500E43FE5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55B0FB6D1974F37500E43FE5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55B0FB6E1974F37500E43FE5 /* AppKit.framework */,
+				55B0FB6F1974F37500E43FE5 /* CoreData.framework */,
+				55B0FB701974F37500E43FE5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		55B0FB711974F37500E43FE5 /* Alt Drag */ = {
+			isa = PBXGroup;
+			children = (
+				55B0FB7D1974F37500E43FE5 /* AppDelegate.h */,
+				55B0FB7E1974F37500E43FE5 /* AppDelegate.m */,
+				55B0FB801974F37500E43FE5 /* MainMenu.xib */,
+				55B0FB831974F37500E43FE5 /* Images.xcassets */,
+				55B0FB721974F37500E43FE5 /* Supporting Files */,
+			);
+			path = "Alt Drag";
+			sourceTree = "<group>";
+		};
+		55B0FB721974F37500E43FE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55B0FB731974F37500E43FE5 /* Alt Drag-Info.plist */,
+				55B0FB741974F37500E43FE5 /* InfoPlist.strings */,
+				55B0FB771974F37500E43FE5 /* main.m */,
+				55B0FB791974F37500E43FE5 /* Alt Drag-Prefix.pch */,
+				55B0FB7A1974F37500E43FE5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55B0FB8F1974F37500E43FE5 /* Alt DragTests */ = {
+			isa = PBXGroup;
+			children = (
+				55B0FB951974F37500E43FE5 /* Alt_DragTests.m */,
+				55B0FB901974F37500E43FE5 /* Supporting Files */,
+			);
+			path = "Alt DragTests";
+			sourceTree = "<group>";
+		};
+		55B0FB901974F37500E43FE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55B0FB911974F37500E43FE5 /* Alt DragTests-Info.plist */,
+				55B0FB921974F37500E43FE5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55B0FB671974F37500E43FE5 /* Alt Drag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B0FB991974F37500E43FE5 /* Build configuration list for PBXNativeTarget "Alt Drag" */;
+			buildPhases = (
+				55B0FB641974F37500E43FE5 /* Sources */,
+				55B0FB651974F37500E43FE5 /* Frameworks */,
+				55B0FB661974F37500E43FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alt Drag";
+			productName = "Alt Drag";
+			productReference = 55B0FB681974F37500E43FE5 /* Alt Drag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55B0FB881974F37500E43FE5 /* Alt DragTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B0FB9C1974F37500E43FE5 /* Build configuration list for PBXNativeTarget "Alt DragTests" */;
+			buildPhases = (
+				55B0FB851974F37500E43FE5 /* Sources */,
+				55B0FB861974F37500E43FE5 /* Frameworks */,
+				55B0FB871974F37500E43FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55B0FB8E1974F37500E43FE5 /* PBXTargetDependency */,
+			);
+			name = "Alt DragTests";
+			productName = "Alt DragTests";
+			productReference = 55B0FB891974F37500E43FE5 /* Alt DragTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55B0FB601974F37500E43FE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Eddy";
+				TargetAttributes = {
+					55B0FB881974F37500E43FE5 = {
+						TestTargetID = 55B0FB671974F37500E43FE5;
+					};
+				};
+			};
+			buildConfigurationList = 55B0FB631974F37500E43FE5 /* Build configuration list for PBXProject "Alt Drag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55B0FB5F1974F37500E43FE5;
+			productRefGroup = 55B0FB691974F37500E43FE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55B0FB671974F37500E43FE5 /* Alt Drag */,
+				55B0FB881974F37500E43FE5 /* Alt DragTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B0FB661974F37500E43FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B0FB761974F37500E43FE5 /* InfoPlist.strings in Resources */,
+				55B0FB841974F37500E43FE5 /* Images.xcassets in Resources */,
+				55B0FB7C1974F37500E43FE5 /* Credits.rtf in Resources */,
+				55B0FB821974F37500E43FE5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B0FB871974F37500E43FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B0FB941974F37500E43FE5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55B0FB641974F37500E43FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B0FB7F1974F37500E43FE5 /* AppDelegate.m in Sources */,
+				55B0FB781974F37500E43FE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B0FB851974F37500E43FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B0FB961974F37500E43FE5 /* Alt_DragTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55B0FB8E1974F37500E43FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55B0FB671974F37500E43FE5 /* Alt Drag */;
+			targetProxy = 55B0FB8D1974F37500E43FE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55B0FB741974F37500E43FE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B0FB751974F37500E43FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55B0FB7A1974F37500E43FE5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B0FB7B1974F37500E43FE5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		55B0FB801974F37500E43FE5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B0FB811974F37500E43FE5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		55B0FB921974F37500E43FE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B0FB931974F37500E43FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55B0FB971974F37500E43FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55B0FB981974F37500E43FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55B0FB9A1974F37500E43FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alt Drag/Alt Drag-Prefix.pch";
+				INFOPLIST_FILE = "Alt Drag/Alt Drag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55B0FB9B1974F37500E43FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alt Drag/Alt Drag-Prefix.pch";
+				INFOPLIST_FILE = "Alt Drag/Alt Drag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		55B0FB9D1974F37500E43FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alt Drag.app/Contents/MacOS/Alt Drag";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alt Drag/Alt Drag-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alt DragTests/Alt DragTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		55B0FB9E1974F37500E43FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alt Drag.app/Contents/MacOS/Alt Drag";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alt Drag/Alt Drag-Prefix.pch";
+				INFOPLIST_FILE = "Alt DragTests/Alt DragTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B0FB631974F37500E43FE5 /* Build configuration list for PBXProject "Alt Drag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B0FB971974F37500E43FE5 /* Debug */,
+				55B0FB981974F37500E43FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B0FB991974F37500E43FE5 /* Build configuration list for PBXNativeTarget "Alt Drag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B0FB9A1974F37500E43FE5 /* Debug */,
+				55B0FB9B1974F37500E43FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55B0FB9C1974F37500E43FE5 /* Build configuration list for PBXNativeTarget "Alt DragTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B0FB9D1974F37500E43FE5 /* Debug */,
+				55B0FB9E1974F37500E43FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55B0FB601974F37500E43FE5 /* Project object */;
+}
